@@ -104,7 +104,7 @@ environment within the team.
               </div>
               <div class="col-lg-6">
                 <ul>
-                  <!-- <li><i class="icofont-rounded-right"></i> <strong>Age:</strong>
+                  <!--test <li><i class="icofont-rounded-right"></i> <strong>Age:</strong>
                   <?php 
                     //date in mm/dd/yyyy format; or it can be in other formats as well
                       $birthDate = "01/23/1998";
