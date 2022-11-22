@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="en">
+  <head>
+  	<title>The black Friday | Tickets</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+		<!-- FAVICON LINK -->
+	<link rel="shortcut icon" href="../images/logo-w.png" type="image/x-icon">
+	
+	<link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,700' rel='stylesheet' type='text/css'>
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+	<link rel="stylesheet" href="css/style.css">
+
+	</head>
+	<body>
+	<section class="ftco-section">
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-md-6 text-center mb-5">
+					<img src="../images/logo-w.png" width="100%"/>
+					<h2 class="heading-section">Premium Reservation Ticket</h2>
+				</div>
+			</div>
+			<div class="row justify-content-center">
+				<div class="col-lg-10 col-md-12">
+					<div class="wrapper">
+						<div class="row justify-content-center">
+							
+							<div class="col-lg-8">
+								<div class="contact-wrap">
+									<h3 class="mb-4 text-center"></h3>
+									<div id="form-message-warning" class="mb-4 w-100 text-center"></div> 
+				      	
+									<form method="POST" id="contactForm" name="contactForm" class="contactForm" action="action.php">
+										<div class="row">
+											<div class="col-md-12">
+												<div class="form-group">
+													<input type="text" required class="form-control" name="name" id="name" placeholder="Fullname">
+												</div>
+											</div>
+											<div class="col-md-12"> 
+												<div class="form-group">
+													<input type="email" required class="form-control" name="email" id="email" placeholder="Email">
+												</div>
+											</div>
+											<div class="col-md-12"> 
+												<div class="form-group">
+													<input type="text" required class="form-control" name="contact" id="contact" placeholder="Contact No.">
+												</div>
+											</div>
+											<div class="col-md-12">
+												<div class="form-group">
+													<input type="text" required class="form-control" name="facebook" id="facebook" placeholder="Facebook Profile Link">
+												</div>
+											</div>
+											<div class="col-md-12">
+												<div class="form-group">
+													<select name="drink" required class="form-control" id="drink" style="background:#141414">
+													    <option disabled selected>Select your preferred drink</option>
+													    <option>San Mig Light</option>
+													    <option>Pale Pilsen</option>
+													    <option>Redhorse</option>
+													</select>
+												</div>
+											</div>
+											<div class="col-md-12">
+												<div class="form-group">
+													<select name="flavor" required class="form-control" id="drink" style="background:#141414">
+													    <option disabled selected>Select your preferred flavor (Puff Bar)</option>
+													    <option>Mango</option>
+													    <option>Banana</option>
+													    <option>Melon</option>
+													</select>
+												</div>
+											</div>
+											<div class="col-md-12">
+											    <hr style="color:white">
+											</div>
+											<div class="col-md-12">
+												<div class="form-group">
+													<input type="submit" name="submit_form" value="Get Ticket" class="btn btn-primary">
+													<div class="submitting"></div>
+												</div>
+											</div>
+										</div>
+									</form>
+								</div>
+							</div>
+							<div class="col-lg-12"><hr style="width:100%;color:white;"><br><br><br></div>
+							<div class="col-lg-8" id="track">
+								<div class="contact-wrap">
+									<h3 class="mb-4 text-center">Track Your Ticket</h3>
+									<div id="form-message-warning" class="mb-4 w-100 text-center"></div> 
+				      	
+									<form method="GET" id="contactForm" name="contactForm" class="contactForm" action="index.php">
+										<div class="row">
+											<div class="col-md-12">
+												<div class="form-group">
+													<input type="text" required class="form-control" name="t" id="name" placeholder="Ticket Code">
+												</div>
+											</div>
+										
+											<div class="col-md-12">
+											    <hr style="color:white">
+											</div>
+											<div class="col-md-12">
+												<div class="form-group">
+													<input type="submit" value="Find" class="btn btn-primary">
+													<div class="submitting"></div>
+												</div>
+											</div>
+										</div>
+									</form>
+								</div>
+							</div>
+							<div class="col-lg-12"><hr style="width:100%;color:white;"><br><br><br><br><br><br></div>
+							<div class="col-lg-8 mb-5">
+								<div class="row">
+									<div class="col-md-4">
+										<div class="dbox w-100 text-center">
+					        		<div class="icon d-flex align-items-center justify-content-center">
+					        			<span class="fa fa-map-marker"></span>
+					        		</div>
+					        		<div class="text">
+						            <p><span>Address:</span> 9th D&E Building, Don A Roces Ave Corner Quezon Ave Quezon City, Philippines</p>
+						          </div>
+					          </div>
+									</div>
+									<div class="col-md-4">
+										<div class="dbox w-100 text-center">
+					        		<div class="icon d-flex align-items-center justify-content-center">
+					        			<span class="fa fa-phone"></span>
+					        		</div>
+					        		<div class="text">
+						            <p><span>Phone:</span> <a href="tel://1234567920">+ 1235 2355 98</a></p>
+						          </div>
+					          </div>
+									</div>
+									<div class="col-md-4">
+										<div class="dbox w-100 text-center">
+					        		<div class="icon d-flex align-items-center justify-content-center">
+					        			<span class="fa fa-paper-plane"></span>
+					        		</div>
+					        		<div class="text">
+						            <p><span>Email:</span> <a href="mailto:info@yoursite.com">info@yoursite.com</a></p>
+						          </div>
+					          </div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<script src="js/jquery.min.js"></script>
+  <script src="js/popper.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/main.js"></script>
+
+	</body>
+</html>
+
